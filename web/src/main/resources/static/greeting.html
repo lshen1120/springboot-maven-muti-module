@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Getting Started: Serving Web Content</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<script  th:inline="javascript">
+    var t=/*[[${name}]]*/ 'xxx';
+</script>
+
+<body>
+123
+<p th:text="'Hello, ' + ${name} + '!'" >xxxxxxxx</p>
+</body>
+</html>
